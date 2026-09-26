@@ -503,6 +503,8 @@ main ol li::marker { color: var(--accent); font-variant-numeric: tabular-nums; }
   gap: var(--space-3);
 }
 
+.form-trap { position: absolute; left: -9999px; }
+
 .field { display: grid; gap: 0.35rem; }
 
 .field label {
